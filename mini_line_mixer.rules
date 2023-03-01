@@ -1,0 +1,116 @@
+
+(rules PCB mini_line_mixer
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 1000.0)
+    (clear 200.0)
+    (clear 125.0 (type smd_to_turn_gap))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um-Power_Gnd" "Via[0-1]_800:400_um" "Power_Gnd"
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-PowerLine" "Via[0-1]_800:400_um" default
+  )
+  (via_rule
+    "Power_Gnd" "Via[0-1]_800:400_um-Power_Gnd"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (via_rule
+    PowerLine "Via[0-1]_800:400_um-PowerLine"
+  )
+  (class default
+    "Net-(C11-Pad2)" "Net-(J6-PadT)" "Net-(C14-Pad2)" "Net-(C18-Pad2)" LchSelectA{slash}B RchSelectA{slash}B "Net-(Q1-Pad3)" "Net-(Q2-Pad3)"
+    "Net-(Q3-Pad3)" "Net-(Q4-Pad3)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C3-Pad2)" "Net-(C4-Pad1)" "Net-(C4-Pad2)"
+    "Net-(C5-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad1)" "Net-(C6-Pad2)" "Net-(C7-Pad1)" "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)"
+    InputMixA InvMixedA "Net-(C10-Pad1)" "Net-(C10-Pad2)" InputMixB InvMixedB "Net-(C13-Pad1)" "Net-(C13-Pad2)"
+    "Net-(C15-Pad1)" "Net-(C15-Pad2)" "Net-(C16-Pad2)" "Net-(C17-Pad1)" "Net-(C17-Pad2)" "unconnected-(J1-PadR)" "Net-(J1-PadT)" "unconnected-(J2-PadR)"
+    "Net-(J2-PadT)" "unconnected-(J3-PadR)" "Net-(J3-PadT)" "Net-(J4-PadR)" "Net-(J4-PadT)" "unconnected-(J5-PadR)" "Net-(J5-PadT)" "unconnected-(J6-PadR)"
+    "unconnected-(J7-PadR)" "Net-(J7-PadT)" "unconnected-(J9-PadR)" "unconnected-(J10-PadR)" "Net-(R101-Pad1)" "unconnected-(SW1-Pad4)" "unconnected-(SW1-Pad5)" "unconnected-(SW1-Pad6)"
+    "unconnected-(SW2-Pad4)" "unconnected-(SW2-Pad5)" "unconnected-(SW2-Pad6)" "unconnected-(SW101-Pad1)" "unconnected-(SW101-Pad4)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "Power_Gnd"
+    GND BIAS +9V "Net-(J101-Pad2)"
+    (clearance_class "Power_Gnd")
+    (via_rule "Power_Gnd")
+    (rule
+      (width 1500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class GND
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

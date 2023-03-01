@@ -1,0 +1,25 @@
+2
+1
+.ac dec 100 10 30k
+3
+9
+/in
+V
+9
+/monitor L
+V
+9
+/out
+V
+9
+.tran 1u 10m
+3
+1
+/in
+V
+1
+/monitor L
+V
+1
+/out
+V

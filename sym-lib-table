@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Marksard_Audio")(type "KiCad")(uri "${KIPRJMOD}/lib/Marksard_Audio.kicad_sym")(options "")(descr ""))
+)
