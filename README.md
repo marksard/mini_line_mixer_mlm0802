@@ -5,11 +5,13 @@ A total of 3ch x2 of mono inputs and 1ch of stereo inupt, 2 channels of stereo o
 This is perfect for mixing audio from small instruments.  
 It does not have a pan pot, but can be used as a stereo 4-channel mixer.  
 
+[blog](https://marksard.github.io/2023/02/23/make-line-mixer/)
+
+![img](https://github.com/marksard/marksard.github.io/raw/master/assets/photos/IMG_5201.jpg)  
+
 ![img](https://marksard.github.io/assets/photos/20230222-P2220005.jpg)  
 
-![img](https://marksard.github.io/assets/photos/20230222-P2220016.jpg)
-
-[blog link](https://marksard.github.io/2023/02/23/make-line-mixer/)
+![img](https://marksard.github.io/assets/photos/20230222-P2220016.jpg)  
 
 ## Specification
 
