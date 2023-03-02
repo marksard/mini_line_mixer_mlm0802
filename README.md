@@ -95,3 +95,4 @@ The user can select A or B outputs for the left and right channels, respectively
 |36|4|-|-|Both Screw Spacer M3 11mm|
 |37|8|-|-|Screw M3 4mm|
 |38|4|-|-|Feet|
+|39|10|-|Pot Knob|D-type 180digree<br>max outer size phi14mm|
