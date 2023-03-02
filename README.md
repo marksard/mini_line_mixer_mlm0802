@@ -44,6 +44,10 @@ The user can select A or B outputs for the left and right channels, respectively
 - 5V to 9V
 - MAX 100mA
 
+### Block diagram
+
+![img](https://marksard.github.io/assets/photos/mlm0802.png)
+
 ### Parts List
 
 |Item|Qty|Reference(s)|Value|Part Model No.|
