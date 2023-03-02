@@ -1,11 +1,11 @@
 ﻿Item,Qty,Reference(s),Value,Part Model No.
-1,8,"C1, C2, C3, C4, C5, C6, C7, C8",1u,サイズ max 5phi x 11mmまで
+1,8,"C1, C2, C3, C4, C5, C6, C7, C8",1u,サイズ max 5phi x 11mm
 2,6,"C9, C10, C12, C13, C15, C17",22p,セラミック seramic
-3,2,"C11, C14",47u,サイズ max 5phi x 11mmまで
+3,2,"C11, C14",47u,サイズ max 5phi x 11mm
 4,2,"C16, C18",470u,サイズ max 10phi x 12.5mm
 5,1,C101,100u,サイズ max 10phi x 12.5mm
 6,4,"C102, C104, C105, C106",100n,積セラ multilayer ceramic
-7,1,C103,47u,サイズ max 5phi x 11mmまで
+7,1,C103,47u,サイズ max 5phi x 11mm
 8,1,J1,Ach1,マル信 est-marushin MJ-355W
 9,1,J2,Ach2,マル信 est-marushin MJ-355W
 10,1,J3,Ach3,マル信 est-marushin MJ-355W
@@ -26,11 +26,11 @@
 25,1,R101,1.5k,金属皮膜 metal film 1/4w
 26,2,"R102, R103",4.7k,金属皮膜 metal film 1/4w
 27,6,"RV1, RV2, RV3, RV5, RV6, RV7",A10k,ALPS RK09L1140-F15-C0-A103
-28,1,RV4,A10k,ALPS RK09L1240-F15-C0-A103(2連)
+28,1,RV4,A10k,ALPS RK09L1240-F15-C0-A103 2gang (2連)
 29,2,"RV9, RV10",B100k,ALPS RK09L1140-F15-C0-B104
-30,1,RV11,B50k,ALPS RK09L1240-F15-C0-B503(2連)
+30,1,RV11,B50k,ALPS RK09L1240-F15-C0-B503 2gang (2連)
 31,1,SW1,Lch Selecter,NKK B-12CCPR
 32,1,SW2,Rch Selecter,NKK B-12CCPR
-33,1,SW101,Power Sw,NKK B-12CCPRM
+33,1,SW101,Power Sw,NKK B-12CCPR
 34,1,U1,NJM5532,NJM-5532
 35,2,"U2, U3",NJM5532,NJM-5532
