@@ -1,7 +1,7 @@
 # Mini Line Mixer MLM0802
 
 'Mini Line Mixer MLM0802' is 100mm x 100mm size audio line level mixer.  
-A total of 3ch x2 of mono inputs and 1ch of stereo inupt, 2 channels of stereo outputs are provided.  
+A total of 3ch x2 of mono inputs and 1ch of stereo inupt, 2ch of stereo outputs are provided.  
 This is perfect for mixing audio from small instruments.  
 It does not have a pan pot, but can be used as a stereo 4-channel mixer.  
 
