@@ -76,7 +76,7 @@ The user can select A or B outputs for the left and right channels, respectively
 |15|1|J9|A Out|マル信 est-marushin MJ-355W|
 |16|1|J10|B Out|マル信 est-marushin MJ-355W|
 |17|1|J11|Phone Out|マル信 est-marushin MJ-355W|
-|18|1|J101|Center -|マル信 est-marushin MJ-179P|
+|18|1|J101|Center negative|マル信 est-marushin MJ-179P|
 |19|4|Q1, Q2, Q3, Q4|2SK170 or 2SK303L|2SK170 or 2SK303L|
 |20|12|R1, R2, R3, R4, R5, R6, R7, R8, R12, R18, R22, R27|51k|金属皮膜 metal film 1/4w|
 |21|4|R9, R15, R21, R26|1meg|金属皮膜 metal film 1/4w|
@@ -98,3 +98,4 @@ The user can select A or B outputs for the left and right channels, respectively
 |37|8|-|-|Screw M3 4mm|
 |38|4|-|-|Feet|
 |39|10|-|Pot Knob|D-type 180digree<br>max outer size phi14mm|
+|40|1|-|-|DC Adapter 9V 100mA Center negative, 2.1mm/5.5mm Jack|
