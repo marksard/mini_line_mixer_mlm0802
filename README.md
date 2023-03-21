@@ -99,3 +99,11 @@ The user can select A or B outputs for the left and right channels, respectively
 |38|4|-|-|Feet|
 |39|10|-|Pot Knob|D-type 180digree<br>max outer size phi14mm|
 |40|1|-|-|DC Adapter 9V 100mA Center negative, 2.1mm/5.5mm Jack|
+
+### PCB image
+
+![PCB image](https://user-images.githubusercontent.com/38324387/226599881-00f62e46-5a95-4f2b-8157-97b5fc0600c3.png)
+
+### Schematic
+
+![Schematic](https://user-images.githubusercontent.com/38324387/226600150-1d47738d-f22e-4be4-a801-1459d5cb8d40.png)
